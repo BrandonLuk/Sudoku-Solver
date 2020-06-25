@@ -257,7 +257,7 @@ void print(Board &board)
             std::cout << std::endl;
             for(int i = 0; i < board_ncols + 2; ++i)
             {
-                std::cout << "— ";
+                std::cout << "--";
             }
         }
         std::cout << std::endl;
